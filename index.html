@@ -1,29 +1,68 @@
+
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Directory Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Tools Directory - Ultimate AI Tools Collection</title>
     <meta name="description" content="Discover the best AI tools for writing, SEO, books, and more. Your ultimate directory for artificial intelligence tools and solutions.">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="font-sans antialiased bg-gray-50">
     <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <a href="/" class="text-2xl font-bold text-blue-600">AI Tools</a>
+            <a href="https://test-acc-12349.github.io/ai-tools-2025-04-14-obx8s/" class="text-2xl font-bold text-blue-600">AI Tools</a>
+            <button class="mobile-menu-button md:hidden" aria-label="Toggle menu">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
             <div class="hidden md:flex space-x-6">
                 <a href="#directory" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Directory</a>
                 <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">About</a>
                 <a href="mailto:admin@aitools.com" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
             </div>
+            <div class="mobile-menu hidden md:hidden absolute top-full left-0 w-full bg-white border-t shadow-lg">
+                <div class="flex flex-col p-4 space-y-4">
+                    <a href="#directory" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Directory</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">About</a>
+                    <a href="mailto:admin@aitools.com" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <section class="h-[50vh] bg-gradient-to-r from-blue-500 to-blue-700 flex items-center">
-        <div class="container mx-auto px-4 text-center">
-            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">AI Tools</h1>
-            <p class="text-xl md:text-2xl text-white/90 mb-8">Get the ultimate AI Tools</p>
-            <a href="https://aitools.com" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">Explore Tools</a>
+    <section class="h-[50vh] bg-gradient-to-r from-blue-500 to-blue-700 flex items-center relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1620712943543-bcc4688e7485')] bg-cover bg-center opacity-10"></div>
+        <div class="container mx-auto px-4 text-center relative z-10">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 animate-fade-in">AI Tools Directory</h1>
+            <p class="text-xl md:text-2xl text-white/90 mb-8">Discover the Most Advanced AI Tools for Your Needs</p>
+            <a href="#directory" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">Explore Tools</a>
+        </div>
+    </section>
+
+    
+
+    <section class="bg-blue-600 py-16 relative">
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1620712943543-bcc4688e7485')] bg-cover bg-center opacity-10"></div>
+        <div class="container mx-auto px-4 text-center relative z-10">
+            <h2 class="text-3xl font-bold text-white mb-8">Submit Your AI Tool</h2>
+            <p class="text-xl text-white/90 mb-8">Join our curated collection of the best AI tools</p>
+            <a href="https://aitools.com/submit" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">Submit Listing</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">About Us</h2>
+            <p class="text-gray-600 max-w-3xl mx-auto text-center leading-relaxed">Welcome to AI Tools, your comprehensive directory for discovering the most innovative artificial intelligence solutions. We carefully curate and review the best AI tools available in the market, helping professionals and businesses find the perfect AI solutions for their specific needs.</p>
         </div>
     </section>
 
@@ -75,25 +114,9 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <section class="bg-blue-600 py-16">
-        <div class="container mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold text-white mb-8">Submit Your AI Tool</h2>
-            <a href="https://aitools.com/submit" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">Submit Listing</a>
-        </div>
-    </section>
-
-    <section id="about" class="py-20 bg-white">
+    </section><footer class="bg-gray-900 text-white py-12">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">About Us</h2>
-            <p class="text-gray-600 max-w-3xl mx-auto text-center leading-relaxed">Welcome to AI Tools, your comprehensive directory for discovering the most innovative artificial intelligence solutions. We carefully curate and review the best AI tools available in the market, helping professionals and businesses find the perfect AI solutions for their specific needs. Our platform connects users with cutting-edge AI technology, from writing assistants to advanced chatbots, ensuring you stay ahead in the rapidly evolving world of artificial intelligence.</p>
-        </div>
-    </section>
-
-    <footer class="bg-gray-900 text-white py-12">
-        <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>
                     <h3 class="text-xl font-semibold mb-4">AI Tools</h3>
                     <p class="text-gray-400">Your ultimate AI tools directory</p>
@@ -103,11 +126,19 @@
                     <a href="mailto:admin@aitools.com" class="text-gray-400 hover:text-white transition-colors duration-300">admin@aitools.com</a>
                 </div>
                 <div>
+                    <h3 class="text-xl font-semibold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div>
                     <h3 class="text-xl font-semibold mb-4">Links</h3>
                     <ul class="space-y-2">
-                        <li><a href="/privacy" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="/terms" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
-                        <li><a href="/blog" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="https://test-acc-12349.github.io/ai-tools-2025-04-14-obx8s/privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://test-acc-12349.github.io/ai-tools-2025-04-14-obx8s/terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://test-acc-12349.github.io/ai-tools-2025-04-14-obx8s/blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -116,5 +147,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
